@@ -18,10 +18,10 @@ let s:cpo_save = &cpo
 set cpo&vim
 
 " A bunch of useful BASIC keywords
-syn keyword basicStatement	BEEP beep Beep BLOAD bload Bload BSAVE bsave Bsave
-syn keyword basicStatement	CALL call Call ABSOLUTE absolute Absolute
-syn keyword basicStatement	CHAIN chain Chain CHDIR chdir Chdir
-syn keyword basicStatement	CIRCLE circle Circle CLEAR clear Clear
+" .. changed for Casio Prizm calculators
+syn keyword basicStatement	Break
+syn keyword basicStatement	Abs 
+syn keyword basicStatement	ClrGraph ClrList ClrMat ClrText ClrVct
 syn keyword basicStatement	CLOSE close Close CLS cls Cls COLOR color Color
 syn keyword basicStatement	COM com Com COMMON common Common
 syn keyword basicStatement	CONST const Const DATA data Data

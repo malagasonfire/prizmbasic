@@ -22,7 +22,7 @@ set cpo&vim
 syn keyword basicStatement	Break
 syn keyword basicStatement	Abs 
 syn keyword basicStatement	ClrGraph ClrList ClrMat ClrText ClrVct
-syn keyword basicStatement	CLOSE close Close CLS cls Cls COLOR color Color
+syn keyword basicStatement	CloseComport38k Cls ColorAuto ColorLighter ColorLinkX&Y ColorLinkOnlyX ColorLinkOnlyY ColorLinkOn ColorLinkOff ColorNormal ColorClr ColorLinkX&Freq 
 syn keyword basicStatement	COM com Com COMMON common Common
 syn keyword basicStatement	CONST const Const DATA data Data
 syn keyword basicStatement	DECLARE declare Declare DEF def Def

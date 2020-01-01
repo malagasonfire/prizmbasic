@@ -19,8 +19,9 @@ set cpo&vim
 
 " A bunch of useful BASIC keywords
 " .. changed for Casio Prizm calculators
-syn keyword basicStatement	Break
 syn keyword basicStatement	Abs 
+syn keyword basicStatement	And
+syn keyword basicStatement	Break
 syn keyword basicStatement	ClrGraph ClrList ClrMat ClrText ClrVct
 syn keyword basicStatement	Cls ColorAuto ColorLighter ColorLinkOnlyY
 syn keyword basicStatement	ColorLinkX&Y ColorLinkOnlyX 

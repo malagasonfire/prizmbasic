@@ -19,7 +19,7 @@ set cpo&vim
 
 " A bunch of useful BASIC keywords
 " .. changed for Casio Prizm calculators
-syn keyword basicStatement	Abs 
+syn keyword basicStatement	Abs
 syn keyword basicStatement	And
 syn keyword basicStatement	Break
 syn keyword basicStatement	ClrGraph ClrList ClrMat ClrText ClrVct
@@ -28,11 +28,8 @@ syn keyword basicStatement	ColorLinkX&Y ColorLinkOnlyX
 syn keyword basicStatement	ColorLinkOn ColorLinkOff
 syn keyword basicStatement	ColorNormal ColorClr ColorLinkX&Freq 
 syn keyword basicStatement	CloseComport38k 
-syn keyword basicStatement	CONST const Const DATA data Data
-syn keyword basicStatement	DECLARE declare Declare DEF def Def
-syn keyword basicStatement	DEFDBL defdbl Defdbl DEFINT defint Defint
-syn keyword basicStatement	DEFLNG deflng Deflng DEFSNG defsng Defsng
-syn keyword basicStatement	DEFSTR defstr Defstr DIM dim Dim
+syn keyword basicStatement	DisplayData Disps Display% D_Var
+syn keyword basicStatement	Dim
 syn keyword basicStatement	DO do Do LOOP loop Loop
 syn keyword basicStatement	DRAW draw Draw END end End
 syn keyword basicStatement	ENVIRON environ Environ ERASE erase Erase

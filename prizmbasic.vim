@@ -40,11 +40,10 @@ syn keyword basicStatement	ERROR
 syn keyword basicStatement	Factor Fill Fix File1 File2 File3 File4 File5 File6
 syn keyword basicStatement	f1 f2 f3 f4 f5 f6 fn
 syn keyword basicStatement	For To Step Next
-syn keyword basicStatement	F@_Result F@_Start F@_End F@_pitch Frac Getkey
-syn keyword basicStatement	GOSUB gosub Gosub GOTO goto Goto
-syn keyword basicStatement	IF if If THEN then Then ELSE else Else
-syn keyword basicStatement	INPUT input Input INPUT# input# Input#
-syn keyword basicStatement	IOCTL ioctl Ioctl KEY key Key
+syn keyword basicStatement	F@_Result F@_Start F@_End F@_pitch Frac 
+syn keyword basicStatement	Getkey Goto
+syn keyword basicStatement	If Then Else IfEnd
+syn keyword basicStatement	Int Integral Intg Dsz Isz
 syn keyword basicStatement	KILL kill Kill LET let Let
 syn keyword basicStatement	LINE line Line LOCATE locate Locate
 syn keyword basicStatement	LOCK lock Lock UNLOCK unlock Unlock

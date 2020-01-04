@@ -29,14 +29,14 @@ syn keyword basicStatement	ColorLinkOn ColorLinkOff
 syn keyword basicStatement	ColorNormal ColorClr ColorLinkX&Freq 
 syn keyword basicStatement	CloseComport38k 
 syn keyword basicStatement	DisplayData Disps Display% D_Var
-syn keyword basicStatement	Dim
+syn keyword basicStatement	Dim Dlist 
 syn keyword basicStatement	Do LpWhile
 syn keyword basicStatement	DrawGraph DrawDyna DrawStat DrawWeb
 syn keyword basicStatement	DrawFTG-Con DrawFTG-Plt DrawR-Con DrawR-Plt
 syn keyword basicStatement	DrawRSigma-Con DrawRSigma-Plt
 syn keyword basicStatement	D_Start D_End D_pitch
-syn keyword basicStatement	ENVIRON environ Environ ERASE erase Erase
-syn keyword basicStatement	ERROR error Error EXIT exit Exit
+syn keyword basicStatement	Eng EngOn EngOff 
+syn keyword basicStatement	ERROR
 syn keyword basicStatement	FIELD field Field FILES files Files
 syn keyword basicStatement	FOR for For NEXT next Next
 syn keyword basicStatement	FUNCTION function Function GET get Get

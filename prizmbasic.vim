@@ -21,7 +21,7 @@ set cpo&vim
 " .. changed for Casio Prizm calculators
 syn keyword basicStatement	Abs
 syn keyword basicStatement	And
-syn keyword basicStatement	Break
+syn keyword basicStatement	BLANK Break
 syn keyword basicStatement	ClrGraph ClrList ClrMat ClrText ClrVct
 syn keyword basicStatement	Cls ColorAuto ColorLighter ColorLinkOnlyY
 syn keyword basicStatement	ColorLinkX&Y ColorLinkOnlyX 
@@ -44,8 +44,11 @@ syn keyword basicStatement	F@_Result F@_Start F@_End F@_pitch Frac
 syn keyword basicStatement	Getkey Goto
 syn keyword basicStatement	If Then Else IfEnd
 syn keyword basicStatement	Int Integral Intg Dsz Isz
-syn keyword basicStatement	KILL kill Kill LET let Let
-syn keyword basicStatement	LINE line Line LOCATE locate Locate
+syn keyword basicStatement	LabelOn LocusOn LabelOff LocusOff
+syn keyword basicStatement	Lbl
+syn keyword basicStatement	Line Linear LinearReg(a+bx) LinRegTTest
+syn keyword basicStatement	List List1 List2 List3 List4 List5 List6
+syn keyword basicStatement	Locate Lower Log
 syn keyword basicStatement	LOCK lock Lock UNLOCK unlock Unlock
 syn keyword basicStatement	LPRINT lprint Lprint USING using Using
 syn keyword basicStatement	LSET lset Lset MKDIR mkdir Mkdir

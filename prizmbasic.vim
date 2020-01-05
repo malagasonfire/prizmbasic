@@ -24,12 +24,13 @@ syn keyword basicStatement	And
 syn keyword basicStatement	BLANK Break
 syn keyword basicStatement	ClrGraph ClrList ClrMat ClrText ClrVct
 syn keyword basicStatement	Cls ColorAuto ColorLighter ColorLinkOnlyY
+syn keyword basicStatement	CellSum( CellProd( CellMin( CellMax( CellMean( CellMedian( CellIf(
 syn keyword basicStatement	ColorLinkX&Y ColorLinkOnlyX 
 syn keyword basicStatement	ColorLinkOn ColorLinkOff
 syn keyword basicStatement	ColorNormal ColorClr ColorLinkX&Freq 
 syn keyword basicStatement	CloseComport38k 
 syn keyword basicStatement	DisplayData Disps Display% D@_Var
-syn keyword basicStatement	Dim Dlist 
+syn keyword basicStatement	Dim Dlist Mat
 syn keyword basicStatement	Do LpWhile
 syn keyword basicStatement	DrawGraph DrawDyna DrawStat DrawWeb
 syn keyword basicStatement	DrawFTG-Con DrawFTG-Plt DrawR-Con DrawR-Plt
@@ -37,21 +38,27 @@ syn keyword basicStatement	DrawRSigma-Con DrawRSigma-Plt
 syn keyword basicStatement	D@_Start D@_End D@_pitch
 syn keyword basicStatement	Eng EngOn EngOff 
 syn keyword basicStatement	ERROR
-syn keyword basicStatement	Factor Fill Fix File1 File2 File3 File4 File5 File6
+syn keyword basicStatement	Factor Fill Fix
+syn keyword basicStatement	File File1 File2 File3 File4 File5 File6
 syn keyword basicStatement	f1 f2 f3 f4 f5 f6 fn
 syn keyword basicStatement	For To Step Next
-syn keyword basicStatement	F@_Result F@_Start F@_End F@_pitch Frac 
+syn keyword basicStatement	F@_Result F@_Start F@_End F@_pitch Frac
 syn keyword basicStatement	Getkey Goto
+syn keyword basicStatement	GraphY Graphr GraphXt GraphYt GraphX
 syn keyword basicStatement	If Then Else IfEnd
 syn keyword basicStatement	Int Integral Intg Dsz Isz
 syn keyword basicStatement	LabelOn LocusOn LabelOff LocusOff
 syn keyword basicStatement	Lbl
+syn keyword basicStatement	LCM( GCD( List->Mat( Mat->List(
 syn keyword basicStatement	Line Linear LinearReg(a+bx) LinRegTTest
 syn keyword basicStatement	List List1 List2 List3 List4 List5 List6
-syn keyword basicStatement	Locate Lower Log
-syn keyword basicStatement	LOCK lock Lock UNLOCK unlock Unlock
-syn keyword basicStatement	LPRINT lprint Lprint USING using Using
-syn keyword basicStatement	LSET lset Lset MKDIR mkdir Mkdir
+syn keyword basicStatement	ln Locate Lower Log log
+syn keyword basicStatement	Logistic LogisticReg LogReg
+syn keyword basicStatement	maxY maxX minY minX
+syn keyword basicStatement	Max( Min( Mean( Median(
+syn keyword basicStatement	MOD( MOD_Exp(
+syn keyword basicStatement	MSa MSe SSa SSe
+syn keyword basicStatement	MSb MSab SSab SSb
 syn keyword basicStatement	NAME name Name ON on On
 syn keyword basicStatement	ERROR error Error OPEN open Open
 syn keyword basicStatement	OPTION option Option BASE base Base

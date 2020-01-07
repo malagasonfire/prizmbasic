@@ -59,7 +59,9 @@ syn keyword basicStatement	Max( Min( Mean( Median(
 syn keyword basicStatement	MOD( MOD_Exp(
 syn keyword basicStatement	MSa MSe SSa SSe
 syn keyword basicStatement	MSb MSab SSab SSb
-syn keyword basicStatement	NAME name Name ON on On
+syn keyword basicStatement	Neg Not Norm N-Dist NormalG Normal NPPlot None
+syn keyword basicStatement	Norm( NormPD( NormCD( InvNormCD(
+syn keyword basicStatement	ON on On
 syn keyword basicStatement	ERROR error Error OPEN open Open
 syn keyword basicStatement	OPTION option Option BASE base Base
 syn keyword basicStatement	OUT out Out PAINT paint Paint

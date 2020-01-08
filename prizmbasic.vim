@@ -21,14 +21,13 @@ set cpo&vim
 " .. changed for Casio Prizm calculators
 syn keyword basicStatement	Abs
 syn keyword basicStatement	And
-syn keyword basicStatement	BLANK Break
+syn keyword basicStatement	Break
 syn keyword basicStatement	ClrGraph ClrList ClrMat ClrText ClrVct
 syn keyword basicStatement	Cls ColorAuto ColorLighter ColorLinkOnlyY
 syn keyword basicStatement	CellSum( CellProd( CellMin( CellMax( CellMean( CellMedian( CellIf(
 syn keyword basicStatement	ColorLinkX&Y ColorLinkOnlyX 
 syn keyword basicStatement	ColorLinkOn ColorLinkOff
 syn keyword basicStatement	ColorNormal ColorClr ColorLinkX&Freq 
-syn keyword basicStatement	CloseComport38k 
 syn keyword basicStatement	DisplayData Disps Display% D@_Var
 syn keyword basicStatement	Dim Dlist Mat
 syn keyword basicStatement	Do LpWhile
@@ -59,10 +58,11 @@ syn keyword basicStatement	Max( Min( Mean( Median(
 syn keyword basicStatement	MOD( MOD_Exp(
 syn keyword basicStatement	MSa MSe SSa SSe
 syn keyword basicStatement	MSb MSab SSab SSb
-syn keyword basicStatement	Neg Not Norm N-Dist NormalG Normal NPPlot None
+syn keyword basicStatement	Neg Norm N-Dist NormalG Normal NPPlot None
 syn keyword basicStatement	Norm( NormPD( NormCD( InvNormCD(
-syn keyword basicStatement	ON on On
-syn keyword basicStatement	ERROR error Error OPEN open Open
+syn keyword basicStatement	Or Not Xor
+syn keyword basicStatement	ERROR BLANK OpenComport38k CloseComport38k
+" .. Last Edit
 syn keyword basicStatement	OPTION option Option BASE base Base
 syn keyword basicStatement	OUT out Out PAINT paint Paint
 syn keyword basicStatement	PALETTE palette Palette PCOPY pcopy Pcopy

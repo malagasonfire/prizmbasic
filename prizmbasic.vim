@@ -62,10 +62,9 @@ syn keyword basicStatement	Neg Norm N-Dist NormalG Normal NPPlot None
 syn keyword basicStatement	Norm( NormPD( NormCD( InvNormCD(
 syn keyword basicStatement	Or Not Xor
 syn keyword basicStatement	ERROR BLANK OpenComport38k CloseComport38k
+syn keyword basicStatement	Graph@_Y= Graph@_Integral Graph@_Y> Graph@_Y<
+syn keyword basicStatement	Graph@_Y>= Graph@_Y<= Graph@_r= Graph(X,Y)=( Para,
 " .. Last Edit
-syn keyword basicStatement	OPTION option Option BASE base Base
-syn keyword basicStatement	OUT out Out PAINT paint Paint
-syn keyword basicStatement	PALETTE palette Palette PCOPY pcopy Pcopy
 syn keyword basicStatement	PEN pen Pen PLAY play Play
 syn keyword basicStatement	PMAP pmap Pmap POKE poke Poke
 syn keyword basicStatement	PRESET preset Preset PRINT print Print

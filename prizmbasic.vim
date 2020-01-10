@@ -64,12 +64,13 @@ syn keyword basicStatement	Or Not Xor
 syn keyword basicStatement	ERROR BLANK OpenComport38k CloseComport38k
 syn keyword basicStatement	Graph@_Y= Graph@_Integral Graph@_Y> Graph@_Y<
 syn keyword basicStatement	Graph@_Y>= Graph@_Y<= Graph@_r= Graph(X,Y)=( Para,
+syn keyword basicStatement	Pie Bar DotG
+syn keyword basicStatement	Plot PlotPhase Line Pol( Rec(
+syn keyword basicStatement	Ply@_Coef Sim@_Result Sim@_Coef Ply@_Result
+syn keyword basicStatement	ProbP( ProbQ( ProbR( Probt(
+syn keyword basicStatement	Prog Prod Percent Cuml Imaginary
+syn keyword basicStatement	P/Year C/Year Power
 " .. Last Edit
-syn keyword basicStatement	PEN pen Pen PLAY play Play
-syn keyword basicStatement	PMAP pmap Pmap POKE poke Poke
-syn keyword basicStatement	PRESET preset Preset PRINT print Print
-syn keyword basicStatement	PRINT# print# Print# USING using Using
-syn keyword basicStatement	PSET pset Pset PUT put Put
 syn keyword basicStatement	RANDOMIZE randomize Randomize READ read Read
 syn keyword basicStatement	REDIM redim Redim RESET reset Reset
 syn keyword basicStatement	RESTORE restore Restore RESUME resume Resume

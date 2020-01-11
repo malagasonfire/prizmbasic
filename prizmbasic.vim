@@ -72,11 +72,12 @@ syn keyword basicStatement	Prog Prod Percent Cuml Imaginary
 syn keyword basicStatement	P/Year C/Year Power
 syn keyword basicStatement	Ran# RanInt#( RanList#( RanBin#( RanNorm#( RanSamp#(
 syn keyword basicStatement	Regression_a Regression_b Regression_r
+syn keyword basicStatement	Ref Rref Conjg Det Identity Augment( List->Mat( Mat->List(
+syn keyword basicStatement	ReP Arg 
+" .. Last Edit
 syn keyword basicStatement	Regression_c Regression_d Regression_e
 syn keyword basicStatement	RightXmin RightXmax RightXscl RightYmin RightYmax RightYscl
 syn keyword basicStatement	RightTThetamin RightTThetamax RightTThetaptch
-syn keyword basicStatement	Rref Ref
-" .. Last Edit
 syn keyword basicStatement	REDIM redim Redim RESET reset Reset
 syn keyword basicStatement	RESTORE restore Restore RESUME resume Resume
 syn keyword basicStatement	RETURN return Return RMDIR rmdir Rmdir

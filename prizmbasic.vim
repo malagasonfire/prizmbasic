@@ -72,8 +72,8 @@ syn keyword basicStatement	Prog Prod Percent Cuml Imaginary
 syn keyword basicStatement	P/Year C/Year Power
 syn keyword basicStatement	Ran# RanInt#( RanList#( RanBin#( RanNorm#( RanSamp#(
 syn keyword basicStatement	Regression_a Regression_b Regression_r
-syn keyword basicStatement	Ref Rref Conjg Det Identity Augment( List->Mat( Mat->List(
-syn keyword basicStatement	ReP Arg 
+syn keyword basicStatement	Ref Rref Det Identity Augment( List->Mat( Mat->List(
+syn keyword basicStatement	ReP Real Arg Conjg Imaginary ImP >a+bi >re^Theta a+bi re^Theta 
 " .. Last Edit
 syn keyword basicStatement	Regression_c Regression_d Regression_e
 syn keyword basicStatement	RightXmin RightXmax RightXscl RightYmin RightYmax RightYscl

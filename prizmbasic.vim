@@ -29,7 +29,6 @@ syn keyword basicStatement	ColorLinkX&Y ColorLinkOnlyX
 syn keyword basicStatement	ColorLinkOn ColorLinkOff
 syn keyword basicStatement	ColorNormal ColorClr ColorLinkX&Freq 
 syn keyword basicStatement	DisplayData Disps Display% D@_Var
-syn keyword basicStatement	Dim Dlist Mat
 syn keyword basicStatement	Do LpWhile
 syn keyword basicStatement	DrawGraph DrawDyna DrawStat DrawWeb
 syn keyword basicStatement	DrawFTG-Con DrawFTG-Plt DrawR-Con DrawR-Plt
@@ -50,7 +49,7 @@ syn keyword basicStatement	LabelOn LocusOn LabelOff LocusOff
 syn keyword basicStatement	Lbl
 syn keyword basicStatement	LCM( GCD( List->Mat( Mat->List(
 syn keyword basicStatement	Line Linear LinearReg(a+bx) LinRegTTest
-syn keyword basicStatement	List List1 List2 List3 List4 List5 List6
+syn keyword basicStatement	List List1 List2 List3 List4 List5 List6 Dlist
 syn keyword basicStatement	ln Locate Lower Log log
 syn keyword basicStatement	Logistic LogisticReg LogReg
 syn keyword basicStatement	maxY maxX minY minX
@@ -59,7 +58,7 @@ syn keyword basicStatement	MOD( MOD_Exp(
 syn keyword basicStatement	MSa MSe SSa SSe
 syn keyword basicStatement	MSb MSab SSab SSb
 syn keyword basicStatement	Neg Norm N-Dist NormalG Normal NPPlot None
-syn keyword basicStatement	Norm( NormPD( NormCD( InvNormCD(
+syn keyword basicStatement	NormPD( NormCD( InvNormCD(
 syn keyword basicStatement	Or Not Xor
 syn keyword basicStatement	ERROR BLANK OpenComport38k CloseComport38k
 syn keyword basicStatement	Graph@_Y= Graph@_Integral Graph@_Y> Graph@_Y<
@@ -71,11 +70,12 @@ syn keyword basicStatement	ProbP( ProbQ( ProbR( Probt(
 syn keyword basicStatement	Prog Prod Percent Cuml Imaginary
 syn keyword basicStatement	P/Year C/Year Power
 syn keyword basicStatement	Ran# RanInt#( RanList#( RanBin#( RanNorm#( RanSamp#(
+syn keyword basicStatement	Real ReP Arg Conjg Imaginary ImP >a+bi >re^Theta a+bi re^Theta 
+syn keyword basicStatement	Ref Det Identity Augment( List->Mat( Mat->List(
+syn keyword basicStatement	Rref CrossP( DotP( Angle( UnitV( Norm( Trn Dim Mat
 syn keyword basicStatement	Regression_a Regression_b Regression_r
-syn keyword basicStatement	Ref Rref Det Identity Augment( List->Mat( Mat->List(
-syn keyword basicStatement	ReP Real Arg Conjg Imaginary ImP >a+bi >re^Theta a+bi re^Theta 
-" .. Last Edit
 syn keyword basicStatement	Regression_c Regression_d Regression_e
+" .. Last Edit
 syn keyword basicStatement	RightXmin RightXmax RightXscl RightYmin RightYmax RightYscl
 syn keyword basicStatement	RightTThetamin RightTThetamax RightTThetaptch
 syn keyword basicStatement	REDIM redim Redim RESET reset Reset

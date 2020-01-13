@@ -19,7 +19,6 @@ set cpo&vim
 
 " A bunch of useful BASIC keywords
 " .. changed for Casio Prizm calculators
-syn keyword basicStatement	Abs
 syn keyword basicStatement	And
 syn keyword basicStatement	Break
 syn keyword basicStatement	ClrGraph ClrList ClrMat ClrText ClrVct
@@ -40,11 +39,11 @@ syn keyword basicStatement	Factor Fill Fix
 syn keyword basicStatement	File File1 File2 File3 File4 File5 File6
 syn keyword basicStatement	f1 f2 f3 f4 f5 f6 fn
 syn keyword basicStatement	For To Step Next
-syn keyword basicStatement	F@_Result F@_Start F@_End F@_pitch Frac
+syn keyword basicStatement	F@_Result F@_Start F@_End F@_pitch
 syn keyword basicStatement	Getkey Goto
 syn keyword basicStatement	GraphY Graphr GraphXt GraphYt GraphX
 syn keyword basicStatement	If Then Else IfEnd
-syn keyword basicStatement	Int Integral Intg Dsz Isz
+syn keyword basicStatement	Int Integral Dsz Isz
 syn keyword basicStatement	LabelOn LocusOn LabelOff LocusOff
 syn keyword basicStatement	Lbl
 syn keyword basicStatement	LCM( GCD( List->Mat( Mat->List(
@@ -66,19 +65,19 @@ syn keyword basicStatement	Graph@_Y>= Graph@_Y<= Graph@_r= Graph(X,Y)=( Para,
 syn keyword basicStatement	Pie Bar DotG
 syn keyword basicStatement	Plot PlotPhase Line Pol( Rec(
 syn keyword basicStatement	Ply@_Coef Sim@_Result Sim@_Coef Ply@_Result
-syn keyword basicStatement	ProbP( ProbQ( ProbR( Probt(
+syn keyword basicStatement	ProbP( ProbQ( ProbR( Probt( 
 syn keyword basicStatement	Prog Prod Percent Cuml Imaginary
 syn keyword basicStatement	P/Year C/Year Power
-syn keyword basicStatement	Ran# RanInt#( RanList#( RanBin#( RanNorm#( RanSamp#(
+syn keyword basicStatement	Ran# RanInt#( RanList#( RanBin#( RanNorm#( RanSamp#( nCr nPr
 syn keyword basicStatement	Real ReP Arg Conjg Imaginary ImP >a+bi >re^Theta a+bi re^Theta 
-syn keyword basicStatement	Ref Det Identity Augment( List->Mat( Mat->List(
-syn keyword basicStatement	Rref CrossP( DotP( Angle( UnitV( Norm( Trn Dim Mat
+syn keyword basicStatement	Ref Det Identity Augment( List->Mat( Mat->List( *Row *Row+ Row+
+syn keyword basicStatement	Rref CrossP( DotP( Angle( UnitV( Norm( Trn Dim Mat Swap
 syn keyword basicStatement	Regression_a Regression_b Regression_r
 syn keyword basicStatement	Regression_c Regression_d Regression_e
-" .. Last Edit
 syn keyword basicStatement	RightXmin RightXmax RightXscl RightYmin RightYmax RightYscl
 syn keyword basicStatement	RightTThetamin RightTThetamax RightTThetaptch
-syn keyword basicStatement	REDIM redim Redim RESET reset Reset
+syn keyword basicStatement	Rnd Abs Frac Intg RndFix( GCD( LCM( MOD( MOD_Exp( 
+" .. Last Edit
 syn keyword basicStatement	RESTORE restore Restore RESUME resume Resume
 syn keyword basicStatement	RETURN return Return RMDIR rmdir Rmdir
 syn keyword basicStatement	RSET rset Rset RUN run Run

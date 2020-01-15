@@ -70,7 +70,6 @@ syn keyword basicStatement	Prog Prod Percent Cuml Imaginary
 syn keyword basicStatement	P/Year C/Year Power
 syn keyword basicStatement	Ran# RanInt#( RanList#( RanBin#( RanNorm#( RanSamp#( nCr nPr
 syn keyword basicStatement	Rec( Pol( >DMS dms deg rad gra &o @D8
-" .. Last Edit
 syn keyword basicStatement	Real ReP Arg Conjg Imaginary ImP >a+bi >re^Theta a+bi re^Theta 
 syn keyword basicStatement	Ref Det Identity Augment( List->Mat( Mat->List( *Row *Row+ Row+
 syn keyword basicStatement	Rref CrossP( DotP( Angle( UnitV( Norm( Trn Dim Mat Swap
@@ -79,6 +78,9 @@ syn keyword basicStatement	Regression_c Regression_d Regression_e
 syn keyword basicStatement	RightXmin RightXmax RightXscl RightYmin RightYmax RightYscl
 syn keyword basicStatement	RightTThetamin RightTThetamax RightTThetaptch
 syn keyword basicStatement	Rnd Abs Frac Intg RndFix( GCD( LCM( MOD( MOD_Exp( 
+syn keyword basicStatement	R@_SelOn NormalG BrokenThickG ThickG  
+syn keyword basicStatement	R@_SelOff DotG ThinG 
+" .. Last Edit
 syn keyword basicStatement	RESTORE restore Restore RESUME resume Resume
 syn keyword basicStatement	RETURN return Return RMDIR rmdir Rmdir
 syn keyword basicStatement	RSET rset Rset RUN run Run

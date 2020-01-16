@@ -82,6 +82,9 @@ syn keyword basicStatement	R@_SelOn NormalG BrokenThickG ThickG
 syn keyword basicStatement	R@_SelOff DotG ThinG 
 syn keyword basicStatement	Subscriptn anType an+1Type an+2Type
 syn keyword basicStatement	an an+1 an+2 bn bn+1 bn+2 cn cn+1 cn+2 
+syn keyword basicStatement	Sigmaan Sigmaan+1 Sigmaan+2
+syn keyword basicStatement	Sigmabn Sigmabn+1 Sigmabn+2
+syn keyword basicStatement	Sigmacn Sigmacn+1 Sigmacn+2
 " .. Last Edit
 syn keyword basicStatement	RESTORE restore Restore RESUME resume Resume
 syn keyword basicStatement	RETURN return Return RMDIR rmdir Rmdir

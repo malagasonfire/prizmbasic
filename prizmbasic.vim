@@ -80,6 +80,8 @@ syn keyword basicStatement	RightTThetamin RightTThetamax RightTThetaptch
 syn keyword basicStatement	Rnd Abs Frac Intg RndFix( GCD( LCM( MOD( MOD_Exp( 
 syn keyword basicStatement	R@_SelOn NormalG BrokenThickG ThickG  
 syn keyword basicStatement	R@_SelOff DotG ThinG 
+syn keyword basicStatement	Subscriptn anType an+1Type an+2Type
+syn keyword basicStatement	an an+1 an+2 bn bn+1 bn+2 cn cn+1 cn+2 
 " .. Last Edit
 syn keyword basicStatement	RESTORE restore Restore RESUME resume Resume
 syn keyword basicStatement	RETURN return Return RMDIR rmdir Rmdir

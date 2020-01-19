@@ -48,11 +48,12 @@ syn keyword basicStatement	LabelOn LocusOn LabelOff LocusOff
 syn keyword basicStatement	Lbl
 syn keyword basicStatement	LCM( GCD( List->Mat( Mat->List(
 syn keyword basicStatement	Line Linear LinearReg(a+bx) LinRegTTest
-syn keyword basicStatement	List List1 List2 List3 List4 List5 List6 Dlist
+syn keyword basicStatement	List List1 List2 List3 List4 List5 List6 
 syn keyword basicStatement	ln Locate Lower Log log
 syn keyword basicStatement	Logistic LogisticReg LogReg
 syn keyword basicStatement	maxY maxX minY minX
-syn keyword basicStatement	Max( Min( Mean( Median(
+syn keyword basicStatement	Max( Min( Mean( Median( Sum Prod Cuml Percent Dlist 
+" .. Last Edit
 syn keyword basicStatement	MOD( MOD_Exp(
 syn keyword basicStatement	MSa MSe SSa SSe
 syn keyword basicStatement	MSb MSab SSab SSb
@@ -88,7 +89,6 @@ syn keyword basicStatement	Sigmacn Sigmacn+1 Sigmacn+2
 syn keyword basicStatement	R@_Result anStart bnStart CnStart R@_Start
 syn keyword basicStatement	R@_End a0 a1 a2 b0 b1 b2 c0 c1 c2
 syn keyword basicStatement	Sel@_a0 Sel@_a1 SetG-Color
-" .. Last Edit
 syn keyword basicStatement	RESTORE restore Restore RESUME resume Resume
 syn keyword basicStatement	RETURN return Return RMDIR rmdir Rmdir
 syn keyword basicStatement	RSET rset Rset RUN run Run

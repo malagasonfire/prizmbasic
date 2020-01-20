@@ -46,13 +46,14 @@ syn keyword basicStatement	If Then Else IfEnd
 syn keyword basicStatement	Int Integral Dsz Isz
 syn keyword basicStatement	LabelOn LocusOn LabelOff LocusOff
 syn keyword basicStatement	Lbl
-syn keyword basicStatement	LCM( GCD( List->Mat( Mat->List(
+syn keyword basicStatement	LCM( GCD( List->Mat( Mat->List( SortA( SortA(
 syn keyword basicStatement	Line Linear LinearReg(a+bx) LinRegTTest
 syn keyword basicStatement	List List1 List2 List3 List4 List5 List6 
 syn keyword basicStatement	ln Locate Lower Log log
 syn keyword basicStatement	Logistic LogisticReg LogReg
 syn keyword basicStatement	maxY maxX minY minX
-syn keyword basicStatement	Max( Min( Mean( Median( Sum Prod Cuml Percent Dlist 
+syn keyword basicStatement	Max( Sum Prod Cuml Percent Dlist 
+syn keyword basicStatement	Min( Mean( Median( Seq(
 " .. Last Edit
 syn keyword basicStatement	MOD( MOD_Exp(
 syn keyword basicStatement	MSa MSe SSa SSe

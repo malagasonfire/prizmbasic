@@ -54,7 +54,6 @@ syn keyword basicStatement	Logistic LogisticReg LogReg
 syn keyword basicStatement	maxY maxX minY minX
 syn keyword basicStatement	Max( Sum Prod Cuml Percent Dlist 
 syn keyword basicStatement	Min( Mean( Median( Seq(
-" .. Last Edit
 syn keyword basicStatement	MOD( MOD_Exp(
 syn keyword basicStatement	MSa MSe SSa SSe
 syn keyword basicStatement	MSb MSab SSab SSb
@@ -90,6 +89,10 @@ syn keyword basicStatement	Sigmacn Sigmacn+1 Sigmacn+2
 syn keyword basicStatement	R@_Result anStart bnStart CnStart R@_Start
 syn keyword basicStatement	R@_End a0 a1 a2 b0 b1 b2 c0 c1 c2
 syn keyword basicStatement	Sel@_a0 Sel@_a1 SetG-Color
+syn keyword basicStatement	S-Gph1 S-Gph2 S-Gph3 DrawOn DrawOff
+syn keyword basicStatement	Sinusoidal Bar Pie Cubic Quad Med-Med Linear N-Dist
+syn keyword basicStatement	Scatter xyLine Broken Quart Log Hist MedBox Exp(ae^bx) 
+" .. Last Edit
 syn keyword basicStatement	RESTORE restore Restore RESUME resume Resume
 syn keyword basicStatement	RETURN return Return RMDIR rmdir Rmdir
 syn keyword basicStatement	RSET rset Rset RUN run Run

@@ -88,10 +88,11 @@ syn keyword basicStatement	R@_Result anStart bnStart CnStart R@_Start
 syn keyword basicStatement	R@_End a0 a1 a2 b0 b1 b2 c0 c1 c2
 syn keyword basicStatement	Sel@_a0 Sel@_a1 SetG-Color
 syn keyword basicStatement	S-Gph1 S-Gph2 S-Gph3 DrawOn DrawOff
-syn keyword basicStatement	SinReg PowerReg LogisticReg LogReg
+syn keyword basicStatement	SinReg PowerReg LogisticReg LogReg QuadReg CubicReg QuartReg
+syn keyword basicStatement	Square Cross Dot DrawDistNorm DrawDistT DrawDistChi DrawDistF 1-Variable 2-Variable
+" .. Last Edit
 syn keyword basicStatement	Sigmay Sigmax Sigmax2 Sigmay2 Sy x-bar
 syn keyword basicStatement	sigmay sigmax maxX minX maxY minY y-bar 
-" .. Last Edit
 syn keyword basicStatement	Sinusoidal Bar Pie Cubic Quad Med-Med Linear N-Dist Logistic
 syn keyword basicStatement	Scatter xyLine Broken Quart Log Hist MedBox Exp(ae^bx) Exp(a^bx)
 syn keyword basicStatement	RESTORE restore Restore RESUME resume Resume

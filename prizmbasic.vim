@@ -47,7 +47,7 @@ syn keyword basicStatement	Int Integral Dsz Isz
 syn keyword basicStatement	LabelOn LocusOn LabelOff LocusOff
 syn keyword basicStatement	Lbl
 syn keyword basicStatement	LCM( GCD( List->Mat( Mat->List( SortA( SortA(
-syn keyword basicStatement	Line Linear LinearReg(a+bx) LinRegTTest
+syn keyword basicStatement	Line Linear LinRegTTest
 syn keyword basicStatement	List List1 List2 List3 List4 List5 List6 
 syn keyword basicStatement	ln Locate Lower Log log
 syn keyword basicStatement	Max( Sum Prod Cuml Percent Dlist 
@@ -88,8 +88,8 @@ syn keyword basicStatement	R@_Result anStart bnStart CnStart R@_Start
 syn keyword basicStatement	R@_End a0 a1 a2 b0 b1 b2 c0 c1 c2
 syn keyword basicStatement	Sel@_a0 Sel@_a1 SetG-Color
 syn keyword basicStatement	S-Gph1 S-Gph2 S-Gph3 DrawOn DrawOff
-syn keyword basicStatement	SinReg PowerReg LogisticReg LogReg QuadReg CubicReg QuartReg
-syn keyword basicStatement	Square Cross Dot DrawDistNorm DrawDistT DrawDistChi DrawDistF 1-Variable 2-Variable
+syn keyword basicStatement	SinReg PowerReg LogisticReg LogReg QuadReg CubicReg QuartReg Med-MedLine LinearReg(a+bx) Exp(ae^bx)
+syn keyword basicStatement	Square Cross Dot DrawDistNorm DrawDistT DrawDistChi DrawDistF 1-Variable 2-Variable LinearReg(ax+b) Exp(a^bx)
 " .. Last Edit
 syn keyword basicStatement	Sigmay Sigmax Sigmax2 Sigmay2 Sy x-bar
 syn keyword basicStatement	sigmay sigmax maxX minX maxY minY y-bar 

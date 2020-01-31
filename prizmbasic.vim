@@ -55,7 +55,7 @@ syn keyword basicStatement	Min( Mean( Median( Seq(
 syn keyword basicStatement	MOD( MOD_Exp(
 syn keyword basicStatement	MSa MSe SSa SSe
 syn keyword basicStatement	MSb MSab SSab SSb
-syn keyword basicStatement	Neg Norm N-Dist NormalG Normal NPPlot None
+syn keyword basicStatement	Neg Norm N-Dist NormalG Normal None
 syn keyword basicStatement	NormPD( NormCD( InvNormCD(
 syn keyword basicStatement	Or Not Xor
 syn keyword basicStatement	ERROR BLANK OpenComport38k CloseComport38k
@@ -88,13 +88,13 @@ syn keyword basicStatement	R@_Result anStart bnStart CnStart R@_Start
 syn keyword basicStatement	R@_End a0 a1 a2 b0 b1 b2 c0 c1 c2
 syn keyword basicStatement	Sel@_a0 Sel@_a1 SetG-Color
 syn keyword basicStatement	S-Gph1 S-Gph2 S-Gph3 DrawOn DrawOff
-syn keyword basicStatement	SinReg PowerReg LogisticReg LogReg QuadReg CubicReg QuartReg Med-MedLine LinearReg(a+bx) Exp(ae^bx)
-syn keyword basicStatement	Square Cross Dot DrawDistNorm DrawDistT DrawDistChi DrawDistF 1-Variable 2-Variable LinearReg(ax+b) Exp(a^bx)
+syn keyword basicStatement	Scatter xyLine Broken Quart Log Hist MedBox Exp(ae^bx) Exp(a^bx)
+syn keyword basicStatement	SinReg PowerReg LogisticReg LogReg QuadReg CubicReg QuartReg Med-MedLine LinearReg(a+bx) NPPlot
+syn keyword basicStatement	Square Cross Dot DrawDistNorm DrawDistT DrawDistChi DrawDistF 1-Variable 2-Variable LinearReg(ax+b)
 " .. Last Edit
 syn keyword basicStatement	Sigmay Sigmax Sigmax2 Sigmay2 Sy x-bar
 syn keyword basicStatement	sigmay sigmax maxX minX maxY minY y-bar 
 syn keyword basicStatement	Sinusoidal Bar Pie Cubic Quad Med-Med Linear N-Dist Logistic
-syn keyword basicStatement	Scatter xyLine Broken Quart Log Hist MedBox Exp(ae^bx) Exp(a^bx)
 syn keyword basicStatement	RESTORE restore Restore RESUME resume Resume
 syn keyword basicStatement	RETURN return Return RMDIR rmdir Rmdir
 syn keyword basicStatement	RSET rset Rset RUN run Run

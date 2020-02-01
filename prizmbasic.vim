@@ -91,7 +91,7 @@ syn keyword basicStatement	S-Gph1 S-Gph2 S-Gph3 DrawOn DrawOff
 syn keyword basicStatement	Scatter xyLine Broken Quart Log Hist MedBox Exp(ae^bx) Exp(a^bx)
 syn keyword basicStatement	SinReg PowerReg LogisticReg LogReg QuadReg CubicReg QuartReg Med-MedLine LinearReg(a+bx) NPPlot
 syn keyword basicStatement	Square Cross Dot DrawDistNorm DrawDistT DrawDistChi DrawDistF 1-Variable 2-Variable LinearReg(ax+b)
-syn keyword basicStatement	StdDev_sigma( Variance_sigma^2( StdDev( Variance(
+syn keyword basicStatement	StdDev_sigma( Variance_sigma^2( StdDev( Variance( OneSampleZTest TwoSampleZTest OnePropZTest TwoPropZTest OneSampleTTest TwoSampleTTest LinRegTTest ChiGOFTest ChiTest TwoSampleFTest OneWayANOVA TwoWayANOVA
 " .. Last Edit
 syn keyword basicStatement	Sigmay Sigmax Sigmax2 Sigmay2 Sy x-bar
 syn keyword basicStatement	sigmay sigmax maxX minX maxY minY y-bar 

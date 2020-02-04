@@ -46,7 +46,7 @@ syn keyword basicStatement	If Then Else IfEnd
 syn keyword basicStatement	Int Integral Dsz Isz
 syn keyword basicStatement	LabelOn LocusOn LabelOff LocusOff
 syn keyword basicStatement	Lbl
-syn keyword basicStatement	LCM( GCD( List->Mat( Mat->List( SortA( SortA(
+syn keyword basicStatement	LCM( GCD( List->Mat( SortA( SortD(
 syn keyword basicStatement	Line Linear LinRegTTest
 syn keyword basicStatement	List List1 List2 List3 List4 List5 List6 
 syn keyword basicStatement	ln Locate Lower Log log

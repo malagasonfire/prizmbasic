@@ -93,6 +93,7 @@ syn keyword basicStatement	SinReg PowerReg LogisticReg LogReg QuadReg CubicReg Q
 syn keyword basicStatement	Square Cross Dot DrawDistNorm DrawDistT DrawDistChi DrawDistF 1-Variable 2-Variable LinearReg(ax+b)
 syn keyword basicStatement	StdDev( OneSampleTTest TwoSampleTTest LinRegTTest ChiGOFTest ChiTest TwoSampleFTest OneWayANOVA TwoWayANOVA
 syn keyword basicStatement	StdDev_sigma( Variance_sigma^2( Variance( OneSampleZTest TwoSampleZTest OnePropZTest TwoPropZTest
+syn keyword basicStatement	Y=Type r=Type ParamType X=Type X>Type X<Type Y>Type Y<Type Y>=Type Y<=Type X<=Type
 " .. Last Edit
 syn keyword basicStatement	Sigmay Sigmax Sigmax2 Sigmay2 Sy x-bar
 syn keyword basicStatement	sigmay sigmax maxX minX maxY minY y-bar 

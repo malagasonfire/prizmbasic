@@ -94,7 +94,8 @@ syn keyword basicStatement	Square Cross Dot DrawDistNorm DrawDistT DrawDistChi D
 syn keyword basicStatement	StdDev( OneSampleTTest TwoSampleTTest LinRegTTest ChiGOFTest ChiTest TwoSampleFTest OneWayANOVA TwoWayANOVA
 syn keyword basicStatement	StdDev_sigma( Variance_sigma^2( Variance( OneSampleZTest TwoSampleZTest OnePropZTest TwoPropZTest
 syn keyword basicStatement	Y=Type r=Type ParamType X=Type X>Type X<Type Y>Type Y<Type Y>=Type Y<=Type X<=Type
-syn keyword basicStatement	ThinG StoGMEM RclGMEM DotG BrokenThickG ThickG NormalG G@_SelOn G@_SelOff
+syn keyword basicStatement	StoGMEM G@_SelOn G@_SelOff
+syn keyword basicStatement	RclGMEM GraphY Graphr GraphXt GraphYt GraphX
 " .. Last Edit
 syn keyword basicStatement	Sigmay Sigmax Sigmax2 Sigmay2 Sy x-bar
 syn keyword basicStatement	sigmay sigmax maxX minX maxY minY y-bar 

@@ -32,7 +32,7 @@ syn keyword basicStatement	Do LpWhile
 syn keyword basicStatement	DrawGraph DrawDyna DrawStat DrawWeb
 syn keyword basicStatement	DrawFTG-Con DrawFTG-Plt DrawR-Con DrawR-Plt
 syn keyword basicStatement	DrawRSigma-Con DrawRSigma-Plt
-syn keyword basicStatement	D@_Start D@_End D@_pitch
+syn keyword basicStatement	D@_SelOn D@_SelOff D@_Var D@_Start D@_End D@_pitch 
 syn keyword basicStatement	Eng EngOn EngOff 
 syn keyword basicStatement	ERROR
 syn keyword basicStatement	Factor Fill Fix

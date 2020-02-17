@@ -39,7 +39,6 @@ syn keyword basicStatement	Factor Fill Fix
 syn keyword basicStatement	File File1 File2 File3 File4 File5 File6
 syn keyword basicStatement	f1 f2 f3 f4 f5 f6 fn
 syn keyword basicStatement	For To Step Next
-syn keyword basicStatement	F@_Result F@_Start F@_End F@_pitch
 syn keyword basicStatement	Getkey Goto
 syn keyword basicStatement	GraphY Graphr GraphXt GraphYt GraphX
 syn keyword basicStatement	If Then Else IfEnd
@@ -96,6 +95,8 @@ syn keyword basicStatement	StdDev_sigma( Variance_sigma^2( Variance( OneSampleZT
 syn keyword basicStatement	Y=Type r=Type ParamType X=Type X>Type X<Type Y>Type Y<Type Y>=Type Y<=Type X<=Type
 syn keyword basicStatement	StoGMEM G@_SelOn G@_SelOff
 syn keyword basicStatement	RclGMEM GraphY Graphr GraphXt GraphYt GraphX
+syn keyword basicStatement	T@_SelOn T@_SelOff F@_Result F@_Start F@_End F@_pitch
+syn keyword basicStatement	VarList1 VarList1 VarList2 VarList3 VarList4 VarList5 VarList6
 " .. Last Edit
 syn keyword basicStatement	Sigmay Sigmax Sigmax2 Sigmay2 Sy x-bar
 syn keyword basicStatement	sigmay sigmax maxX minX maxY minY y-bar 

@@ -97,6 +97,7 @@ syn keyword basicStatement	StoGMEM G@_SelOn G@_SelOff
 syn keyword basicStatement	RclGMEM GraphY Graphr GraphXt GraphYt GraphX
 syn keyword basicStatement	T@_SelOn T@_SelOff F@_Result F@_Start F@_End F@_pitch
 syn keyword basicStatement	VarList1 VarList1 VarList2 VarList3 VarList4 VarList5 VarList6
+syn keyword basicStatement	R@_SelOn R@_SelOff anType an+1Type an+2Type an an+1 an+2 Subscriptn
 " .. Last Edit
 syn keyword basicStatement	Sigmay Sigmax Sigmax2 Sigmay2 Sy x-bar
 syn keyword basicStatement	sigmay sigmax maxX minX maxY minY y-bar 

@@ -98,27 +98,90 @@ syn keyword basicStatement	RclGMEM GraphY Graphr GraphXt GraphYt GraphX
 syn keyword basicStatement	T@_SelOn T@_SelOff F@_Result F@_Start F@_End F@_pitch
 syn keyword basicStatement	VarList1 VarList1 VarList2 VarList3 VarList4 VarList5 VarList6
 syn keyword basicStatement	[week] [day] [h] [min] [s] [ms] [micros] [ns]
+
+
+syn keyword basicFunction 	And
+syn keyword basicFunction 	Break
+syn keyword basicFunction 	ClrGraph ClrList ClrMat ClrText ClrVct
+syn keyword basicFunction 	Cls ColorAuto ColorLighter ColorLinkOnlyY
+syn keyword basicFunction 	CellSum( CellProd( CellMin( CellMax( CellMean( CellMedian( CellIf(
+syn keyword basicFunction 	ColorLinkX&Y ColorLinkOnlyX 
+syn keyword basicFunction 	ColorLinkOn ColorLinkOff
+syn keyword basicFunction 	ColorNormal ColorClr ColorLinkX&Freq 
+syn keyword basicFunction 	DisplayData Disps Display% D@_Var
+syn keyword basicFunction 	Do LpWhile
+syn keyword basicFunction 	DrawGraph DrawDyna DrawStat DrawWeb
+syn keyword basicFunction 	DrawFTG-Con DrawFTG-Plt DrawR-Con DrawR-Plt
+syn keyword basicFunction 	DrawRSigma-Con DrawRSigma-Plt
+syn keyword basicFunction 	D@_SelOn D@_SelOff D@_Var D@_Start D@_End D@_pitch 
+syn keyword basicFunction 	Eng EngOn EngOff 
+syn keyword basicFunction 	ERROR
+syn keyword basicFunction 	Factor Fill Fix
+syn keyword basicFunction 	File File1 File2 File3 File4 File5 File6
+syn keyword basicFunction 	f1 f2 f3 f4 f5 f6 fn
+syn keyword basicFunction 	For To Step Next
+syn keyword basicFunction 	Getkey Goto
+syn keyword basicFunction 	GraphY Graphr GraphXt GraphYt GraphX
+syn keyword basicFunction 	If Then Else IfEnd
+syn keyword basicFunction 	Int Integral Dsz Isz
+syn keyword basicFunction 	LabelOn LocusOn LabelOff LocusOff
+syn keyword basicFunction 	Lbl
+syn keyword basicFunction 	LCM( GCD( List->Mat( SortA( SortD(
+syn keyword basicFunction 	Line Linear LinRegTTest
+syn keyword basicFunction 	List List1 List2 List3 List4 List5 List6 
+syn keyword basicFunction 	ln Locate Lower Log log
+syn keyword basicFunction 	Max( Sum Prod Cuml Percent Dlist 
+syn keyword basicFunction 	Min( Mean( Median( Seq(
+syn keyword basicFunction 	MOD( MOD_Exp(
+syn keyword basicFunction 	MSa MSe SSa SSe
+syn keyword basicFunction 	MSb MSab SSab SSb
+syn keyword basicFunction 	Neg Norm N-Dist NormalG Normal None
+syn keyword basicFunction 	NormPD( NormCD( InvNormCD(
+syn keyword basicFunction 	Or Not Xor
+syn keyword basicFunction 	ERROR BLANK OpenComport38k CloseComport38k
+syn keyword basicFunction 	Graph@_Y= Graph@_Integral Graph@_Y> Graph@_Y<
+syn keyword basicFunction 	Graph@_Y>= Graph@_Y<= Graph@_r= Graph(X,Y)=( Para,
+syn keyword basicFunction 	Pie Bar DotG
+syn keyword basicFunction 	Plot PlotPhase Line Pol( Rec(
+syn keyword basicFunction 	Ply@_Coef Sim@_Result Sim@_Coef Ply@_Result
+syn keyword basicFunction 	ProbP( ProbQ( ProbR( Probt( 
+syn keyword basicFunction 	Prog Prod Percent Cuml Imaginary
+syn keyword basicFunction 	P/Year C/Year Power
+syn keyword basicFunction 	Ran# RanInt#( RanList#( RanBin#( RanNorm#( RanSamp#( nCr nPr
+syn keyword basicFunction 	Rec( Pol( >DMS dms deg rad gra &o @D8
+syn keyword basicFunction 	Real ReP Arg Conjg Imaginary ImP >a+bi >re^Theta a+bi re^Theta 
+syn keyword basicFunction 	Ref Det Identity Augment( List->Mat( Mat->List( *Row *Row+ Row+
+syn keyword basicFunction 	Rref CrossP( DotP( Angle( UnitV( Norm( Trn Dim Mat Swap
+syn keyword basicFunction 	Regression_a Regression_b Regression_r
+syn keyword basicFunction 	Regression_c Regression_d Regression_e
+syn keyword basicFunction 	RightXmin RightXmax RightXscl RightYmin RightYmax RightYscl
+syn keyword basicFunction 	RightTThetamin RightTThetamax RightTThetaptch
+syn keyword basicFunction 	Rnd Abs Frac Intg RndFix( GCD( LCM( MOD( MOD_Exp( 
+syn keyword basicFunction 	R@_SelOn NormalG BrokenThickG ThickG  
+syn keyword basicFunction 	R@_SelOff DotG ThinG 
+syn keyword basicFunction 	Subscriptn anType an+1Type an+2Type
+syn keyword basicFunction 	an an+1 an+2 bn bn+1 bn+2 cn cn+1 cn+2 
+syn keyword basicFunction 	Sigmaan Sigmaan+1 Sigmaan+2
+syn keyword basicFunction 	Sigmabn Sigmabn+1 Sigmabn+2
+syn keyword basicFunction 	Sigmacn Sigmacn+1 Sigmacn+2
+syn keyword basicFunction 	R@_Result anStart bnStart CnStart R@_Start
+syn keyword basicFunction 	R@_End a0 a1 a2 b0 b1 b2 c0 c1 c2
+syn keyword basicFunction 	Sel@_a0 Sel@_a1 SetG-Color
+syn keyword basicFunction 	S-Gph1 S-Gph2 S-Gph3 DrawOn DrawOff
+syn keyword basicFunction 	Scatter xyLine Broken Quart Log Hist MedBox Exp(ae^bx) Exp(a^bx)
+syn keyword basicFunction 	SinReg PowerReg LogisticReg LogReg QuadReg CubicReg QuartReg Med-MedLine LinearReg(a+bx) NPPlot
+syn keyword basicFunction 	Square Cross Dot DrawDistNorm DrawDistT DrawDistChi DrawDistF 1-Variable 2-Variable LinearReg(ax+b)
+syn keyword basicFunction 	StdDev( OneSampleTTest TwoSampleTTest LinRegTTest ChiGOFTest ChiTest TwoSampleFTest OneWayANOVA TwoWayANOVA
+syn keyword basicFunction 	StdDev_sigma( Variance_sigma^2( Variance( OneSampleZTest TwoSampleZTest OnePropZTest TwoPropZTest
+syn keyword basicFunction 	Y=Type r=Type ParamType X=Type X>Type X<Type Y>Type Y<Type Y>=Type Y<=Type X<=Type
+syn keyword basicFunction 	StoGMEM G@_SelOn G@_SelOff
+syn keyword basicFunction 	RclGMEM GraphY Graphr GraphXt GraphYt GraphX
+syn keyword basicFunction 	T@_SelOn T@_SelOff F@_Result F@_Start F@_End F@_pitch
+syn keyword basicFunction 	VarList1 VarList1 VarList2 VarList3 VarList4 VarList5 VarList6
+syn keyword basicFunction 	[week] [day] [h] [min] [s] [ms] [micros] [ns]
+
 " .. Last Edit
-syn keyword basicStatement	Sigmay Sigmax Sigmax2 Sigmay2 Sy x-bar
-syn keyword basicStatement	sigmay sigmax maxX minX maxY minY y-bar 
-syn keyword basicStatement	Sinusoidal Bar Pie Cubic Quad Med-Med Linear N-Dist Logistic
-syn keyword basicStatement	RESTORE restore Restore RESUME resume Resume
-syn keyword basicStatement	RETURN return Return RMDIR rmdir Rmdir
-syn keyword basicStatement	RSET rset Rset RUN run Run
-syn keyword basicStatement	SEEK seek Seek SELECT select Select
-syn keyword basicStatement	CASE case Case SHARED shared Shared
-syn keyword basicStatement	SHELL shell Shell SLEEP sleep Sleep
-syn keyword basicStatement	SOUND sound Sound STATIC static Static
-syn keyword basicStatement	STOP stop Stop STRIG strig Strig
-syn keyword basicStatement	SUB sub Sub SWAP swap Swap
-syn keyword basicStatement	SYSTEM system System TIMER timer Timer
-syn keyword basicStatement	TROFF troff Troff TRON tron Tron
-syn keyword basicStatement	TYPE type Type UNLOCK unlock Unlock
-syn keyword basicStatement	VIEW view View WAIT wait Wait
-syn keyword basicStatement	WHILE while While WEND wend Wend
-syn keyword basicStatement	WIDTH width Width WINDOW window Window
-syn keyword basicStatement	WRITE write Write DATE$ date$ Date$
-syn keyword basicStatement	MID$ mid$ Mid$ TIME$ time$ Time$
+
 
 syn keyword basicFunction	ABS abs Abs ASC asc Asc
 syn keyword basicFunction	ATN atn Atn CDBL cdbl Cdbl

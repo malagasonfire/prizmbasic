@@ -100,49 +100,14 @@ syn keyword basicStatement	VarList1 VarList1 VarList2 VarList3 VarList4 VarList5
 syn keyword basicStatement	[week] [day] [h] [min] [s] [ms] [micros] [ns]
 
 
-syn keyword basicFunction 	And
-syn keyword basicFunction 	Break
-syn keyword basicFunction 	ClrGraph ClrList ClrMat ClrText ClrVct
-syn keyword basicFunction 	Cls ColorAuto ColorLighter ColorLinkOnlyY
-syn keyword basicFunction 	CellSum( CellProd( CellMin( CellMax( CellMean( CellMedian( CellIf(
-syn keyword basicFunction 	ColorLinkX&Y ColorLinkOnlyX 
-syn keyword basicFunction 	ColorLinkOn ColorLinkOff
-syn keyword basicFunction 	ColorNormal ColorClr ColorLinkX&Freq 
-syn keyword basicFunction 	DisplayData Disps Display% D@_Var
-syn keyword basicFunction 	Do LpWhile
-syn keyword basicFunction 	DrawGraph DrawDyna DrawStat DrawWeb
-syn keyword basicFunction 	DrawFTG-Con DrawFTG-Plt DrawR-Con DrawR-Plt
-syn keyword basicFunction 	DrawRSigma-Con DrawRSigma-Plt
-syn keyword basicFunction 	D@_SelOn D@_SelOff D@_Var D@_Start D@_End D@_pitch 
-syn keyword basicFunction 	Eng EngOn EngOff 
-syn keyword basicFunction 	ERROR
-syn keyword basicFunction 	Factor Fill Fix
-syn keyword basicFunction 	File File1 File2 File3 File4 File5 File6
-syn keyword basicFunction 	f1 f2 f3 f4 f5 f6 fn
-syn keyword basicFunction 	For To Step Next
-syn keyword basicFunction 	Getkey Goto
-syn keyword basicFunction 	GraphY Graphr GraphXt GraphYt GraphX
-syn keyword basicFunction 	If Then Else IfEnd
-syn keyword basicFunction 	Int Integral Dsz Isz
-syn keyword basicFunction 	LabelOn LocusOn LabelOff LocusOff
-syn keyword basicFunction 	Lbl
-syn keyword basicFunction 	LCM( GCD( List->Mat( SortA( SortD(
-syn keyword basicFunction 	Line Linear LinRegTTest
-syn keyword basicFunction 	List List1 List2 List3 List4 List5 List6 
-syn keyword basicFunction 	ln Locate Lower Log log
-syn keyword basicFunction 	Max( Sum Prod Cuml Percent Dlist 
-syn keyword basicFunction 	Min( Mean( Median( Seq(
-syn keyword basicFunction 	MOD( MOD_Exp(
-syn keyword basicFunction 	MSa MSe SSa SSe
-syn keyword basicFunction 	MSb MSab SSab SSb
-syn keyword basicFunction 	Neg Norm N-Dist NormalG Normal None
-syn keyword basicFunction 	NormPD( NormCD( InvNormCD(
-syn keyword basicFunction 	Or Not Xor
-syn keyword basicFunction 	ERROR BLANK OpenComport38k CloseComport38k
-syn keyword basicFunction 	Graph@_Y= Graph@_Integral Graph@_Y> Graph@_Y<
-syn keyword basicFunction 	Graph@_Y>= Graph@_Y<= Graph@_r= Graph(X,Y)=( Para,
-syn keyword basicFunction 	Pie Bar DotG
-syn keyword basicFunction 	Plot PlotPhase Line Pol( Rec(
+syn keyword basicFunction 	CellSum CellProd CellMin CellMax CellMean CellMedian CellIf
+syn keyword basicFunction 	LCM GCD List->Mat SortA SortD
+syn keyword basicFunction 	Max Min Mean Median Seq
+syn keyword basicFunction 	MOD MOD_Exp
+syn keyword basicFunction 	NormPD NormCD InvNormCD
+syn keyword basicFunction 	Graph(X,Y)=
+syn keyword basicFunction 	Pol Rec
+" .. Last Edit
 syn keyword basicFunction 	Ply@_Coef Sim@_Result Sim@_Coef Ply@_Result
 syn keyword basicFunction 	ProbP( ProbQ( ProbR( Probt( 
 syn keyword basicFunction 	Prog Prod Percent Cuml Imaginary

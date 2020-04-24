@@ -107,9 +107,8 @@ syn keyword basicFunction 	MOD MOD_Exp
 syn keyword basicFunction 	NormPD NormCD InvNormCD
 syn keyword basicFunction 	Graph(X,Y)=
 syn keyword basicFunction 	Pol Rec
+syn keyword basicFunction 	ProbP ProbQ ProbR Probt 
 " .. Last Edit
-syn keyword basicFunction 	Ply@_Coef Sim@_Result Sim@_Coef Ply@_Result
-syn keyword basicFunction 	ProbP( ProbQ( ProbR( Probt( 
 syn keyword basicFunction 	Prog Prod Percent Cuml Imaginary
 syn keyword basicFunction 	P/Year C/Year Power
 syn keyword basicFunction 	Ran# RanInt#( RanList#( RanBin#( RanNorm#( RanSamp#( nCr nPr

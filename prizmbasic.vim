@@ -109,8 +109,6 @@ syn keyword basicFunction 	Graph(X,Y)=
 syn keyword basicFunction 	Pol Rec
 syn keyword basicFunction 	ProbP ProbQ ProbR Probt 
 " .. Last Edit
-syn keyword basicFunction 	Prog Prod Percent Cuml Imaginary
-syn keyword basicFunction 	P/Year C/Year Power
 syn keyword basicFunction 	Ran# RanInt#( RanList#( RanBin#( RanNorm#( RanSamp#( nCr nPr
 syn keyword basicFunction 	Rec( Pol( >DMS dms deg rad gra &o @D8
 syn keyword basicFunction 	Real ReP Arg Conjg Imaginary ImP >a+bi >re^Theta a+bi re^Theta 

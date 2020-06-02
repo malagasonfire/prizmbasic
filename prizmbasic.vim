@@ -108,12 +108,11 @@ syn keyword basicFunction 	NormPD NormCD InvNormCD
 syn keyword basicFunction 	Graph(X,Y)=
 syn keyword basicFunction 	Pol Rec
 syn keyword basicFunction 	ProbP ProbQ ProbR Probt 
+syn keyword basicFunction 	RanInt# RanList# RanBin# RanNorm# RanSamp# nCr nPr
+syn keyword basicFunction 	Rec( Pol(
+syn keyword basicFunction 	Augment( List->Mat( Mat->List(
+syn keyword basicFunction 	CrossP( DotP( Angle( UnitV( Norm( 
 " .. Last Edit
-syn keyword basicFunction 	Ran# RanInt#( RanList#( RanBin#( RanNorm#( RanSamp#( nCr nPr
-syn keyword basicFunction 	Rec( Pol( >DMS dms deg rad gra &o @D8
-syn keyword basicFunction 	Real ReP Arg Conjg Imaginary ImP >a+bi >re^Theta a+bi re^Theta 
-syn keyword basicFunction 	Ref Det Identity Augment( List->Mat( Mat->List( *Row *Row+ Row+
-syn keyword basicFunction 	Rref CrossP( DotP( Angle( UnitV( Norm( Trn Dim Mat Swap
 syn keyword basicFunction 	Regression_a Regression_b Regression_r
 syn keyword basicFunction 	Regression_c Regression_d Regression_e
 syn keyword basicFunction 	RightXmin RightXmax RightXscl RightYmin RightYmax RightYscl
